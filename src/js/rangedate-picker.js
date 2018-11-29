@@ -3,15 +3,14 @@ import fecha from 'fecha'
 const defaultConfig = {}
 const defaultI18n = 'ID'
 const availableMonths = {
-  EN: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November',
-    'December']
-  ID: ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November',
-    'Desember']
+  EN: [
+    'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November',
+    'December'
+  ]
 }
 
 const availableShortDays = {
-  EN: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
-  ID: ['Min', 'Sen', 'Sel', 'Rab', 'Kam', 'Jum', 'Sab']
+  EN: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat']
 }
 
 const presetRangeLabel = {
@@ -21,13 +20,6 @@ const presetRangeLabel = {
     lastMonth: 'Last Month',
     lastSevenSays: 'Last 7 Days',
     lastThirtyDays: 'Last 30 Days'
-  },
-  ID: {
-    today: 'Hari ini',
-    thisMonth: 'Bulan ini',
-    lastMonth: 'Bulan lalu',
-    lastSevenDays: '7 Hari Terakhir',
-    lastThirtyDays: '30 Hari Terakhir'
   }
 }
 
