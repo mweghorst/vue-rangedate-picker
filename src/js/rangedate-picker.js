@@ -4,7 +4,7 @@ const defaultConfig = {}
 const defaultI18n = 'ID'
 const availableMonths = {
   EN: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November',
-    'December'],
+    'December']
   ID: ['Januari', 'Februari', 'Maret', 'April', 'Mei', 'Juni', 'Juli', 'Agustus', 'September', 'Oktober', 'November',
     'Desember']
 }
